@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor01:#c5ebd6;
+    --cor02:#83e1ad;;
+    --cor03:#2fa866;;
+    --cor04:#063d1e;
+
+    --fonte-padrao: Arial, Verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+}
+
+body {
+    background-image: url(imagens/fundo.jpg);
+    font-family: var(--fonte-padrao);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+header {
+    min-height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header > h1 {
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header > p {
+    color: white;
+    font-family: var(--fonte-padrao);
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+nav {
+    padding: 10px;
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.192);
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(65, 36, 36);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    color: rgb(226, 223, 223);
+    background-color: rgb(156, 150, 150);
+}
+
+main {
+    background-color: rgba(221, 216, 216, 0.637);
+    color: rgb(0, 0, 0);
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+
+.clique {
+    text-align: center;
+    color: rgb(95, 13, 13);
+    font-size: bold;
+}
+
+main img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    transition: transform 0.3s ease;
+}
+
+main img:hover {
+    transform: scale(1.1);
+}
+
+main h1 {
+    color: black;
+    font-family: var(--fonte-destaque);
+    text-align: center;
+}
+
+
+.receitas {
+    background-color: #c5dbcf9f;
+    text-align: justify;
+    max-width: 700px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+
+.receitas > h2 {
+    color: rgb(27, 27, 27);
+}
+
+.receitas > h3 {
+    color: rgb(7, 88, 4);
+}
+
+.receitas > p {
+    color: rgb(29, 28, 28);
+}
