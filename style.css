@@ -134,3 +134,11 @@ main h1 {
 .receitas > p {
     color: rgb(29, 28, 28);
 }
+
+footer {
+    background-color: #063d1e;
+    color: #c5ebd6;
+    padding: 5px;
+    text-align: center;
+    font-size: bold;
+}
